@@ -6,11 +6,11 @@ pidgin &
 thunderbird &
 xchat &
 conky &
+xautolock -time 10 -locker slock &
 numlockx
 
 if [ "$(hostname)" == "meka-desktop" ]; then
     xrandr --output DisplayPort-0 --auto --output DVI-0 --auto --right-of DisplayPort-0
-    xautolock -time 10 -locker slock &
     skype &
     nm-applet &
     virt-manager &
