@@ -14,6 +14,7 @@ if [ "$(hostname)" == "meka-desktop" ]; then
     skype &
     nm-applet &
     virt-manager &
+    mpd
 elif [ "$(hostname)" == "hal9000" ]; then
     ladi-system-tray &
     ladish_control sload meka && ladish_control sstart && a2j_control ehw && a2j_control start &
