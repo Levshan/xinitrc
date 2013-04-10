@@ -1,5 +1,6 @@
 #!/bin/bash
 
+export BROWSER=/usr/bin/chromium.sh
 setxkbmap -option "grp:lwin_switch" "us,hr"
 pidgin &
 thunderbird &
