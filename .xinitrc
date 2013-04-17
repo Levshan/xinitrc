@@ -5,7 +5,6 @@ setxkbmap -option "grp:lwin_switch" "us,hr"
 pidgin &
 thunderbird &
 hexchat &
-conky &
 xautolock -time 10 -locker slock &
 numlockx
 ario -m &
